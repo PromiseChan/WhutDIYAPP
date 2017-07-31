@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.apacheexample.cnpromise.whutjwc.MainActivity">
+
+    <!--输入用户名提示-->
+    <TextView
+        android:text="用户名"
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+
+    <!--用户名输入框-->
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_username"
+        android:layout_height="wrap_content"
+        android:hint="请输入教务处用户名"
+        android:textCursorDrawable="@null"
+        android:background="@null"
+        android:text="0121510870620"
+        />
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/colorBottom"/>
+
+    <!--密码提示框-->
+    <TextView
+        android:text="密码"
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <!--密码输入框-->
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/ed_pwd"
+        android:layout_height="wrap_content"
+        android:hint="请输入教务处密码"
+        android:textCursorDrawable="@null"
+        android:background="@null"
+        android:text="15321088450642"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorBottom"/>
+
+    <!--身份提示框-->
+    <TextView
+        android:text="身份"
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <!--身份输入框-->
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/ed_type"
+        android:layout_height="wrap_content"
+        android:hint="请输入身份（学生、老师、教职员工）"
+        android:textCursorDrawable="@null"
+        android:background="@null"
+        android:text="xs"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorBottom"/>
+
+
+    <!--进行登录按钮-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="获取课表"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/btn_login"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorButton"
+        />
+
+    <!--课表显示-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_courses"
+        />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
